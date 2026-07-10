@@ -1,0 +1,43 @@
+name: Opportunity Radar — daily update + reminders
+
+on:
+  schedule:
+    # Three runs a day (UTC). The 03:00 run also scrapes fresh listings.
+    # 03:00 UTC = 8:30 AM IST, 11:00 = 4:30 PM IST, 19:00 = 12:30 AM IST.
+    - cron: "0 3 * * *"
+    - cron: "0 11 * * *"
+    - cron: "0 19 * * *"
+  workflow_dispatch: {}   # lets you press a "Run" button to test manually
+
+permissions:
+  contents: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Scrape fresh listings (morning run only)
+        if: github.event.schedule == '0 3 * * *' || github.event_name == 'workflow_dispatch'
+        run: python scraper/update_opportunities.py
+
+      - name: Commit updated board data
+        if: github.event.schedule == '0 3 * * *' || github.event_name == 'workflow_dispatch'
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "actions@github.com"
+          git add opportunities.json data.js
+          git diff --cached --quiet || git commit -m "Daily board refresh"
+          git push
+
+      - name: Send deadline reminder emails
+        env:
+          GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          BOARD_URL: ${{ secrets.BOARD_URL }}
+        run: python scraper/send_reminders.py

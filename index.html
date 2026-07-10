@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Opportunity Almanac · 2026 → 2027</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,300;1,9..144,400;1,9..144,600&family=Karla:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#150F1E; --panel:#201631; --panel2:#291D3E; --line:#3B2B52; --hairline:#31234A;
+  --rose:#E3A6BE; --lilac:#C4AEE8; --gold:#E9C9A8; --cream:#F4EDF3; --mauve:#9D8AB5;
+  --coral:#EE8B84; --sage:#A9C9A6;
+  --serif:'Fraunces',Georgia,serif; --sans:'Karla',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--ink);color:var(--cream);font-family:var(--sans);min-height:100vh;
+  background-image:radial-gradient(ellipse 900px 420px at 78% -80px, rgba(196,174,232,.10), transparent 62%),
+                   radial-gradient(ellipse 620px 360px at 10% 0, rgba(227,166,190,.07), transparent 60%)}
+a{color:var(--rose)}
+.top{padding:44px clamp(18px,5vw,64px) 26px;display:flex;flex-wrap:wrap;gap:26px;align-items:flex-end;justify-content:space-between;border-bottom:1px solid var(--hairline)}
+.brand .eyebrow{font-size:11px;letter-spacing:.34em;color:var(--mauve);text-transform:uppercase}
+.brand h1{font-family:var(--serif);font-weight:300;font-style:italic;font-size:clamp(30px,5vw,52px);color:var(--cream);margin-top:8px;line-height:1.05}
+.brand h1 em{font-style:normal;color:var(--rose)}
+.brand p{color:var(--mauve);font-size:14px;margin-top:12px;max-width:56ch;line-height:1.6}
+.tonight{text-align:right;min-width:210px}
+.tonight .lbl{font-size:10px;letter-spacing:.3em;color:var(--mauve);text-transform:uppercase}
+.tonight .val{font-family:var(--serif);font-size:16px;color:var(--cream);margin:4px 0 14px}
+.tonight .next{color:var(--gold);font-style:italic}
+.tabs{display:flex;gap:10px;overflow-x:auto;padding:20px clamp(18px,5vw,64px) 6px;scrollbar-width:thin}
+.tab{font-size:11.5px;letter-spacing:.18em;white-space:nowrap;background:transparent;border:1px solid var(--line);color:var(--mauve);padding:9px 18px;border-radius:999px;cursor:pointer;text-transform:uppercase;transition:color .2s,border-color .2s}
+.tab:hover{color:var(--lilac);border-color:var(--lilac)}
+.tab.active{background:var(--panel2);color:var(--rose);border-color:var(--rose)}
+.tab:focus-visible{outline:2px solid var(--rose);outline-offset:2px}
+.toolbar{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:18px clamp(18px,5vw,64px) 2px}
+.search{flex:1;min-width:230px;background:var(--panel);border:1px solid var(--line);border-radius:999px;color:var(--cream);font-family:var(--sans);font-size:13.5px;padding:11px 20px}
+.search::placeholder{color:var(--mauve)}
+.search:focus{outline:none;border-color:var(--rose)}
+.brief-btn{background:none;border:1px solid var(--gold);border-radius:999px;color:var(--gold);font-size:11.5px;letter-spacing:.18em;padding:11px 20px;cursor:pointer;text-transform:uppercase}
+.brief-btn:hover{background:rgba(233,201,168,.08)}
+.legend{display:flex;gap:8px 22px;flex-wrap:wrap;padding:14px clamp(18px,5vw,64px);color:var(--mauve);font-size:11px;letter-spacing:.1em}
+.legend .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:6px;vertical-align:1px}
+main{padding:4px clamp(18px,5vw,64px) 70px}
+.rowhead,.row{display:grid;grid-template-columns:minmax(240px,2.4fr) minmax(120px,1fr) 130px 105px 135px 96px;gap:16px;align-items:center;padding:16px 8px;border-bottom:1px solid var(--hairline)}
+.rowhead{font-size:10px;letter-spacing:.28em;color:var(--mauve);text-transform:uppercase}
+.row:hover{background:rgba(196,174,232,.045)}
+.op-name{font-family:var(--serif);font-weight:400;font-size:16.5px;color:var(--cream);line-height:1.3}
+.op-note{display:block;font-family:var(--sans);color:var(--mauve);font-size:12.5px;margin-top:5px;line-height:1.55}
+.op-org{color:var(--lilac);font-size:13px}
+.dl{font-size:13px;color:var(--cream)}
+.dl-est{color:var(--mauve);font-size:9.5px;letter-spacing:.14em;display:block;margin-top:2px}
+.cdown{font-family:var(--serif);font-style:italic;font-size:14.5px;color:var(--gold)}
+.chip{font-size:10px;letter-spacing:.18em;text-transform:uppercase;display:inline-flex;align-items:center;gap:7px}
+.chip::before{content:"";width:7px;height:7px;border-radius:50%;background:currentColor}
+.c-open{color:var(--sage)}
+.c-soon{color:var(--gold)}
+.c-last{color:var(--coral);animation:breathe 2.4s ease-in-out infinite}
+.c-gone{color:var(--mauve);text-decoration:line-through}
+.c-gone::before{background:var(--line)}
+.c-roll{color:var(--lilac)}
+@keyframes breathe{50%{opacity:.45}}
+@media (prefers-reduced-motion:reduce){.c-last{animation:none}}
+.apply{font-size:11px;letter-spacing:.14em;color:var(--ink);background:var(--rose);padding:8px 14px;border-radius:999px;text-decoration:none;text-align:center;text-transform:uppercase;font-weight:700}
+.apply:hover{background:var(--lilac)}
+.apply.gone{background:var(--line);color:var(--mauve);pointer-events:none}
+.brief{display:none;background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:28px clamp(18px,3.4vw,40px);margin:20px 0 10px;line-height:1.75;font-size:14px}
+.brief.open{display:block}
+.brief h3{font-family:var(--serif);font-style:italic;font-weight:400;color:var(--rose);font-size:21px;margin-bottom:14px}
+.brief h4{color:var(--gold);font-size:11px;letter-spacing:.22em;margin:20px 0 7px;text-transform:uppercase}
+.brief p{color:#D8CCDF;margin-bottom:9px}
+.brief a{word-break:break-word}
+.count{color:var(--mauve);font-size:11px;letter-spacing:.18em;padding:18px 8px;text-transform:uppercase}
+footer{border-top:1px solid var(--hairline);padding:24px clamp(18px,5vw,64px);color:var(--mauve);font-size:12.5px;line-height:1.7}
+@media(max-width:840px){
+  .rowhead{display:none}
+  .row{grid-template-columns:1fr 1fr;gap:10px;padding:18px 6px}
+  .row>.op-cell{grid-column:1/-1}
+  .tonight{text-align:left}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="brand">
+    <div class="eyebrow">✦ 2026 → 2027 · Every door currently ajar</div>
+    <h1>The Opportunity <em>Almanac</em></h1>
+    <p>Internships, research seats, fellowships, hackathons, championships and women-in-tech programs — everything upcoming, with real countdowns. Most doors close quietly weeks before their printed dates; walk through early.</p>
+  </div>
+  <div class="tonight">
+    <div class="lbl">This evening</div><div class="val" id="clock">—</div>
+    <div class="lbl">Next to close</div><div class="val next" id="nextdep">—</div>
+  </div>
+</header>
+
+<nav class="tabs" id="tabs"></nav>
+
+<div class="toolbar">
+  <input class="search" id="search" type="text" placeholder="Search the almanac — try 'quant', 'remote', 'outreachy'…" aria-label="Search opportunities">
+  <button class="brief-btn" id="briefToggle">✦ Prep notes</button>
+</div>
+
+<div class="legend">
+  <span><span class="dot" style="background:var(--sage)"></span>Open — more than 5 days</span>
+  <span><span class="dot" style="background:var(--gold)"></span>Closing soon — ≤5 days</span>
+  <span><span class="dot" style="background:var(--coral)"></span>Last day — ≤24 hrs</span>
+  <span><span class="dot" style="background:var(--lilac)"></span>Rolling — no fixed date, apply now</span>
+  <span>EST. — projected from last cycle; verify on the link</span>
+</div>
+
+<main>
+  <div class="brief" id="brief"></div>
+  <div class="rowhead"><span>Opportunity</span><span>Host</span><span>Closes</span><span>Time left</span><span>Status</span><span></span></div>
+  <div id="rows"></div>
+  <div class="count" id="count"></div>
+</main>
+
+<footer>
+  Dates marked EST. are projected from the previous cycle and replaced automatically as real postings appear — confirm on the application page before planning around one. The almanac refreshes itself daily; reminder letters reach your inbox from five days out, and thrice daily in the final twenty-four hours. Rewritten July 2026.
+</footer>
+
+<script src="data.js"></script>
+<script>
+const SEED=/*DATA-START*/[
+{"id":"g-swe-27","section":"tech","title":"Google Software Engineering Intern, Summer 2027","org":"Google (incl. Bengaluru)","deadline":null,"confirmed":true,"url":"https://www.google.com/about/careers/applications/jobs/results/","note":"Posting is LIVE and rolling — includes Bengaluru. Google windows close in 2–4 weeks. Apply immediately."},
+{"id":"g-step-27","section":"tech","title":"Google STEP 2027 (India)","org":"Google","deadline":"2026-10-31","confirmed":false,"url":"https://buildyourfuture.withgoogle.com/programs/step/","note":"For 1st/2nd-years. India window historically opens Sep–Oct. Check weekly from September."},
+{"id":"msft-27","section":"tech","title":"Microsoft Internships 2027 (India)","org":"Microsoft","deadline":"2026-09-30","confirmed":false,"url":"https://careers.microsoft.com/v2/global/en/universityinternship","note":"Explore program targets 1st/2nd years. India roles open ~August."},
+{"id":"amzn-27","section":"tech","title":"Amazon SDE Intern 2027 (India)","org":"Amazon","deadline":"2026-08-31","confirmed":false,"url":"https://www.amazon.jobs/en/teams/internships-for-students","note":"Amazon posts FIRST every cycle (Jul–Aug). Watch from now."},
+{"id":"nvda-27","section":"tech","title":"NVIDIA Ignite 2027","org":"NVIDIA","deadline":"2026-10-19","confirmed":false,"url":"https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/","note":"13-day window only (historically Oct 6–19). Early-ID program for 1st/2nd years."},
+{"id":"meta-27","section":"tech","title":"Meta SWE Intern 2027","org":"Meta","deadline":"2026-10-15","confirmed":false,"url":"https://www.metacareers.com/careerprograms/students","note":"Opens Sep–Oct; fast pipeline once you're in."},
+{"id":"fk-grid","section":"tech","title":"Flipkart GRiD 8.0","org":"Flipkart (Unstop)","deadline":"2026-08-15","confirmed":false,"url":"https://unstop.com/","note":"India's biggest campus challenge → PPIs/internships. Reg. usually Jul–Aug."},
+{"id":"gsoc-27","section":"tech","title":"Google Summer of Code 2027","org":"Google / Open source","deadline":"2027-04-06","confirmed":false,"url":"https://summerofcode.withgoogle.com/","note":"Remote, paid, perfect for 1st-years. Start contributing to an org NOW; proposals due ~April."},
+{"id":"mlh-fellow-f26","section":"tech","title":"MLH Fellowship — Fall 2026 batch","org":"Major League Hacking","deadline":"2026-07-31","confirmed":false,"url":"https://fellowship.mlh.io/","note":"12-week remote, stipended open-source fellowship. Fall apps close late July — this window is NOW."},
+{"id":"lfx-f26","section":"tech","title":"LFX Mentorship — Fall 2026 term (Sep–Nov)","org":"Linux Foundation","deadline":"2026-08-10","confirmed":false,"url":"https://mentorship.lfx.linuxfoundation.org/","note":"Remote, paid open-source mentorship with real maintainers. Fall term apps ~early Aug."},
+{"id":"icpc-26","section":"tech","title":"ICPC 2026–27 India regionals — registration","org":"ICPC / Amrita, IIT KGP…","deadline":"2026-09-30","confirmed":false,"url":"https://icpc.global/","note":"THE competitive-programming championship. Team of 3; your Codeforces habit is built for this. Reg. Aug–Oct."},
+{"id":"hackercup-26","section":"tech","title":"Meta Hacker Cup 2026","org":"Meta","deadline":"2026-09-20","confirmed":false,"url":"https://www.facebook.com/codingcompetitions/hacker-cup","note":"Global CP contest; practice round ~Sep. T-shirts at Round 2, résumé signal throughout."},
+{"id":"ieeextreme-26","section":"tech","title":"IEEEXtreme 20.0 (24-hour global contest)","org":"IEEE","deadline":"2026-10-15","confirmed":false,"url":"https://ieeextreme.org/","note":"24h team programming marathon, ~late Oct. Needs IEEE student membership."},
+{"id":"aoc-26","section":"tech","title":"Advent of Code 2026","org":"Eric Wastl","deadline":"2026-12-01","confirmed":true,"url":"https://adventofcode.com/","note":"Dec 1–25, one puzzle a day. Free, beloved, and a lovely daily CP ritual. Date shown = day it begins."},
+{"id":"eyantra-26","section":"tech","title":"e-Yantra Robotics Competition 2026–27","org":"IIT Bombay","deadline":"2026-09-15","confirmed":false,"url":"https://www.e-yantra.org/","note":"National robotics comp; winners get IIT-B summer internships. Reg. ~Aug–Sep."},
+{"id":"simplify","section":"tech","title":"Simplify Summer-2027 live tracker (auto-scraped daily)","org":"GitHub / SimplifyJobs","deadline":null,"confirmed":true,"url":"https://github.com/SimplifyJobs/Summer2027-Internships","note":"The canonical daily-updated list. Our scraper pulls from here every morning."},
+{"id":"citadel-27","section":"quant","title":"Citadel & Citadel Securities 2027 Internships","org":"Citadel","deadline":null,"confirmed":true,"url":"https://www.citadel.com/careers/open-opportunities/students/internships/","note":"LIVE NOW, rolling — ~70% of offers signed by mid-October. QR/QT/SWE tracks; apply to multiple."},
+{"id":"js-27","section":"quant","title":"Jane Street 2027 Internships (QT/QR/SWE)","org":"Jane Street","deadline":"2026-10-31","confirmed":false,"url":"https://www.janestreet.com/join-jane-street/internships/","note":"NY/London/HK open ~Aug 2026. HK office runs a dedicated India round (info session ~April–May 2027, janestreet.com/gtku)."},
+{"id":"optiver-27","section":"quant","title":"Optiver Summer 2027 (Trading & Tech)","org":"Optiver","deadline":"2026-10-31","confirmed":false,"url":"https://optiver.com/working-at-optiver/career-opportunities/","note":"Opens ~Aug. The 80-in-8 mental-math test is the first filter — drill Zetamac."},
+{"id":"deshaw-27","section":"quant","title":"D. E. Shaw India — Summer Intern 2027","org":"D. E. Shaw & Co","deadline":"2026-08-31","confirmed":false,"url":"https://www.deshawindia.com/careers","note":"Hyderabad office recruits BITS heavily, on- and off-campus."},
+{"id":"hrt-27","section":"quant","title":"Hudson River Trading 2027 Internships","org":"HRT","deadline":"2026-09-30","confirmed":false,"url":"https://www.hudsonrivertrading.com/careers/","note":"Algo dev / SWE / quant research. Opens ~Aug 2026."},
+{"id":"gs-27","section":"quant","title":"Goldman Sachs 2027 Summer Analyst (India)","org":"Goldman Sachs","deadline":"2026-08-31","confirmed":false,"url":"https://www.goldmansachs.com/careers/students/programs-and-internships","note":"Bengaluru engineering + global markets. India apps open ~Aug–Sep."},
+{"id":"jpm-27","section":"quant","title":"J.P. Morgan 2027 Summer Internship (India)","org":"JPMorganChase","deadline":"2026-09-30","confirmed":false,"url":"https://careers.jpmorgan.com/in/en/students/programs","note":"SWE + quant tracks; code-for-good hackathon is a side door."},
+{"id":"wq-brain","section":"quant","title":"WorldQuant BRAIN Research Consultant","org":"WorldQuant","deadline":null,"confirmed":true,"url":"https://platform.worldquantbrain.com/","note":"Rolling, remote, open to 1st-years. Build alphas online → paid consultancy. Best quant entry point available to you TODAY."},
+{"id":"wq-iqc","section":"quant","title":"WorldQuant International Quant Championship 2027","org":"WorldQuant","deadline":"2027-02-28","confirmed":false,"url":"https://www.worldquant.com/","note":"Annual global alpha-building contest; strong finishers get BRAIN consultancy + interviews. Reg. ~Feb."},
+{"id":"imc-prosperity","section":"quant","title":"IMC Prosperity (global trading challenge)","org":"IMC Trading","deadline":"2027-03-31","confirmed":false,"url":"https://prosperity.imc.com/","note":"15-day algorithmic + manual trading game, teams of 5, ~April. Superb quant résumé line for a 1st-year."},
+{"id":"c1-datathons","section":"quant","title":"Citadel Datathons (via Correlation One)","org":"Citadel × Correlation One","deadline":null,"confirmed":true,"url":"https://www.correlation-one.com/citadel","note":"Rolling invitations year-round, incl. women's datathons — a real interview side-door into Citadel."},
+{"id":"in-props","section":"quant","title":"India prop shops: Tower Research, Graviton, Quadeye, AlphaGrep","org":"Various","deadline":null,"confirmed":true,"url":"https://www.tower-research.com/open-positions/","note":"Recruit via campus + coding contests (Codeforces/CodeChef ratings matter here). Keep CP sharp."},
+{"id":"nma-cn","section":"research","title":"Neuromatch Academy — Computational Neuroscience 2027","org":"Neuromatch (remote)","deadline":"2027-03-15","confirmed":false,"url":"https://neuromatch.io/computational-neuroscience/","note":"Apps open Feb 2027, close ~mid-March; course runs July. Income-adjusted fees. THE entry into comp-neuro."},
+{"id":"nma-dl","section":"research","title":"Neuromatch Academy — Deep Learning / NeuroAI 2027","org":"Neuromatch (remote)","deadline":"2027-03-15","confirmed":false,"url":"https://neuromatch.io/courses/","note":"Same portal & window as comp-neuro track. Group research project + mentor included."},
+{"id":"mitacs-27","section":"research","title":"MITACS Globalink Research Internship 2027 (Canada)","org":"MITACS","deadline":"2026-09-17","confirmed":false,"url":"https://www.mitacs.ca/our-programs/globalink-research-internship-students/","note":"Fully funded 12-week summer research in Canada. Apply in Aug–Sep of your 2nd year."},
+{"id":"daad-27","section":"research","title":"DAAD WISE 2027 (Germany)","org":"DAAD","deadline":"2026-11-15","confirmed":false,"url":"https://www.daad.in/en/study-research-in-germany/scholarships/wise/","note":"Funded summer research in Germany; typically for 3rd-years — bookmark for your cycle."},
+{"id":"epfl-e3","section":"research","title":"EPFL E3 Excellence Internship 2027","org":"EPFL, Switzerland","deadline":"2026-12-01","confirmed":false,"url":"https://www.epfl.ch/schools/ic/education/excellence-internships/","note":"Paid summer research at a top-5 European CS school."},
+{"id":"eth-ssrf","section":"research","title":"ETH Zürich Student Summer Research Fellowship 2027","org":"ETH Zürich","deadline":"2026-12-15","confirmed":false,"url":"https://inf.ethz.ch/studies/summer-research-fellowship.html","note":"CS dept fellowship, fully funded, undergrads welcome (2 yrs of study by start)."},
+{"id":"ias-srfp","section":"research","title":"IAS–INSA–NASI Summer Research Fellowship 2027 (India)","org":"Indian Academy of Sciences","deadline":"2026-11-30","confirmed":false,"url":"https://www.ias.ac.in/Initiatives/Science_Education/Summer_Research_Fellowship_Programme","note":"Places you with IISc/IIT/TIFR professors incl. neuroscience labs. Apps ~Oct–Nov."},
+{"id":"ntu-ic","section":"research","title":"NTU India Connect Research Internship (winter 2026 intake)","org":"NTU Singapore","deadline":"2026-09-30","confirmed":false,"url":"https://www.ntu.edu.sg/education/india-connect-sg","note":"2–6 month research at NTU for Indian students; winter intake apps ~Sep. Remote options have existed."},
+{"id":"spar","section":"research","title":"SPAR — Supervised Program for Alignment Research (remote)","org":"SPAR","deadline":"2026-08-15","confirmed":false,"url":"https://sparai.org/","note":"Remote, part-time AI-safety research with a mentor. Two rounds/year; undergrad-friendly. Fall round ~Aug."},
+{"id":"mlc","section":"research","title":"ML Collective — open research collaboration","org":"MLC (remote)","deadline":null,"confirmed":true,"url":"https://mlcollective.org/","note":"Rolling. Join reading groups, pitch a project, get unaffiliated-researcher mentorship. Zero gatekeeping."},
+{"id":"coldmail","section":"research","title":"Cold-email pipeline: AI + neuroscience professors with listed openings","org":"Self-directed","deadline":null,"confirmed":true,"url":"https://csrankings.org/","note":"Rolling. Open the prep notes above — full hunting strategy + email template inside."},
+{"id":"anthropic-fellows","section":"fellowship","title":"Anthropic Fellows Program (next cohort)","org":"Anthropic","deadline":null,"confirmed":true,"url":"https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/","note":"4-month paid AI-safety research, $11–15K/mo. Aimed at strong engineers (no PhD required). Aspirational — build toward it."},
+{"id":"mats","section":"fellowship","title":"MATS — ML Alignment Theory Scholars (Winter 2027)","org":"MATS","deadline":"2026-10-01","confirmed":false,"url":"https://www.matsprogram.org/","note":"Mentored alignment research (Berkeley + remote streams). Apps ~Oct for winter cohort."},
+{"id":"cohere-scholars","section":"fellowship","title":"Cohere Labs Scholars Program 2027","org":"Cohere","deadline":"2026-08-29","confirmed":false,"url":"https://cohere.com/research/scholars-program","note":"8-month paid, remote-friendly research residency. No PhD needed; unusual backgrounds welcome."},
+{"id":"fatima","section":"fellowship","title":"Fatima Fellowship 2027 (remote)","org":"Fatima Fellowship","deadline":"2027-02-15","confirmed":false,"url":"https://www.fatimafellowship.com/","note":"9-month remote research mentorship pairing you with a PhD/industry researcher. Undergrad-friendly."},
+{"id":"aisc-27","section":"fellowship","title":"AI Safety Camp 2027 (remote)","org":"AI Safety Camp","deadline":"2026-11-15","confirmed":false,"url":"https://aisafety.camp/","note":"Part-time remote research teams, ~Jan–Apr. Genuinely open to newcomers with evidence of effort."},
+{"id":"aisafety-dir","section":"fellowship","title":"Live directory: every AI-safety fellowship & bootcamp","org":"AISafety.com","deadline":null,"confirmed":true,"url":"https://www.aisafety.com/events-and-training","note":"Rolling directory with real deadlines — check monthly."},
+{"id":"hackmit-26","section":"hackathon","title":"HackMIT 2026 (event Sep 19–20)","org":"MIT","deadline":"2026-07-04","confirmed":true,"url":"https://hackmit.org/","note":"Registration closed July 4, 2026. Set a June-2027 reminder for next cycle — you flagged this one before."},
+{"id":"sih-26","section":"hackathon","title":"Smart India Hackathon 2026","org":"Ministry of Education","deadline":"2026-09-15","confirmed":false,"url":"https://sih.gov.in/","note":"India's biggest hackathon; team via your college SPOC. Reg. ~Aug–Sep."},
+{"id":"ethindia-26","section":"hackathon","title":"ETHIndia 2026 (Devfolio)","org":"Devfolio","deadline":"2026-10-31","confirmed":false,"url":"https://ethindia.co/","note":"Asia's largest Ethereum hackathon, Bengaluru, ~December. Great travel-grant culture."},
+{"id":"hackon-26","section":"hackathon","title":"Amazon HackOn 2026","org":"Amazon India","deadline":"2026-08-31","confirmed":false,"url":"https://unstop.com/","note":"Amazon's India hackathon — finalists get interview fast-tracks. Watch Unstop from Aug."},
+{"id":"hacktoberfest-26","section":"hackathon","title":"Hacktoberfest 2026","org":"DigitalOcean & friends","deadline":"2026-10-31","confirmed":true,"url":"https://hacktoberfest.com/","note":"Oct 1–31: merge a handful of open-source PRs, earn the badge, and — more usefully — your first real OSS contributions."},
+{"id":"imagine-27","section":"hackathon","title":"Microsoft Imagine Cup 2027","org":"Microsoft","deadline":"2026-12-15","confirmed":false,"url":"https://imaginecup.microsoft.com/","note":"Global student startup/AI competition; rounds run into spring 2027."},
+{"id":"genai-x","section":"hackathon","title":"Google GenAI Exchange Hackathon (India)","org":"Google Cloud","deadline":"2026-09-30","confirmed":false,"url":"https://vision.hack2skill.com/","note":"India-focused GenAI build event; watch Hack2skill + Google Cloud India."},
+{"id":"mlh-27","section":"hackathon","title":"MLH 2027 Season (global calendar)","org":"Major League Hacking","deadline":null,"confirmed":true,"url":"https://mlh.io/seasons/2027/events","note":"Rolling calendar of student hackathons incl. India + digital-only events."},
+{"id":"devfolio","section":"hackathon","title":"Devfolio + Unstop live feeds","org":"Devfolio / Unstop","deadline":null,"confirmed":true,"url":"https://devfolio.co/hackathons","note":"The two boards where every Indian hackathon drops first. Scraper watches these."},
+{"id":"wow-26","section":"women","title":"Amazon WoW 2026 (India)","org":"Amazon India","deadline":"2026-09-15","confirmed":false,"url":"https://www.amazon.jobs/content/en/career-programs/university/wow","note":"Networking platform + direct SDE internship pipeline for women engineering students. Reg. Jul–Sep — this is YOUR window."},
+{"id":"myntra-hr","section":"women","title":"Myntra HackerRamp — WeForShe 2026","org":"Myntra","deadline":"2026-07-31","confirmed":false,"url":"https://unstop.com/","note":"Women-only hackathon → PPIs. Registration typically closes late July — check Unstop NOW."},
+{"id":"outreachy-dec26","section":"women","title":"Outreachy — December 2026 cohort (remote, paid)","org":"Outreachy / Software Freedom Conservancy","deadline":"2026-09-08","confirmed":false,"url":"https://www.outreachy.org/","note":"US$7,000 remote open-source internship for women & underrepresented folks. Initial apps ~Aug–Sep."},
+{"id":"adobe-wit","section":"women","title":"Adobe India Women-in-Technology Scholarship 2027","org":"Adobe","deadline":"2026-10-15","confirmed":false,"url":"https://research.adobe.com/scholarship/","note":"Covers tuition + Adobe India internship + mentor + GHC India trip."},
+{"id":"geekgoddess-26","section":"women","title":"TechGig Geek Goddess 2026","org":"TechGig","deadline":"2026-09-30","confirmed":false,"url":"https://www.techgig.com/geekgoddess","note":"India's largest women-in-tech coding competition; hiring partners interview finalists."},
+{"id":"gen-google","section":"women","title":"Generation Google Scholarship 2027 (APAC)","org":"Google","deadline":"2026-12-31","confirmed":false,"url":"https://buildyourfuture.withgoogle.com/scholarships/generation-google-scholarship-apac","note":"USD 2,500 + community for women in CS, 1st/2nd years eligible."},
+{"id":"ghc-26","section":"women","title":"Grace Hopper Celebration 2026 (Anaheim)","org":"AnitaB.org","deadline":"2026-09-15","confirmed":false,"url":"https://ghc.anitab.org/","note":"World's largest women-in-tech gathering, late 2026. Student scholarships + academic rates; virtual tickets exist."},
+{"id":"ghc-india","section":"women","title":"Grace Hopper Celebration India 2026","org":"AnitaB.org","deadline":"2026-09-30","confirmed":false,"url":"https://ghcindia.anitab.org/","note":"Bengaluru, ~November. Massive career fair — companies interview on the floor. Student scholarships available."},
+{"id":"hrt-wit","section":"women","title":"HRT Women in Trading & Technology (early ID)","org":"Hudson River Trading","deadline":"2026-09-30","confirmed":false,"url":"https://www.hudsonrivertrading.com/careers/","note":"Designed for 1st/2nd-year women — direct pipeline into HRT internships."},
+{"id":"deshaw-ascend","section":"women","title":"D. E. Shaw India — Ascender / women's programs","org":"D. E. Shaw & Co","deadline":"2026-09-30","confirmed":false,"url":"https://www.deshawindia.com/careers","note":"Early-engagement program for women at Indian campuses → internship pipeline."},
+{"id":"codehers-27","section":"women","title":"Walmart CodeHers 2027 (India)","org":"Walmart Global Tech","deadline":"2027-01-15","confirmed":false,"url":"https://unstop.com/","note":"Women-only coding contest → internships/offers. Reg. usually Dec–Jan."},
+{"id":"fk-runway","section":"women","title":"Flipkart Runway 2027 (women)","org":"Flipkart","deadline":"2027-02-15","confirmed":false,"url":"https://unstop.com/","note":"Women-only challenge → SDE internship PPOs. Reg. ~Jan–Feb."},
+{"id":"codess-cafe","section":"women","title":"Codess.Cafe mentorship cohorts (India)","org":"Codess.Cafe","deadline":null,"confirmed":true,"url":"https://codess.cafe/","note":"Rolling. Peer + senior mentorship circle for Indian women engineers; cohorts open periodically."},
+{"id":"rtc","section":"women","title":"Rewriting the Code — membership (free, global)","org":"RTC","deadline":null,"confirmed":true,"url":"https://rewritingthecode.org/","note":"40K+ women in 110+ countries; scholarships, referrals, mentorship. Join today, costs nothing."},
+{"id":"we-google","section":"women","title":"TalentSprint WE (supported by Google)","org":"TalentSprint","deadline":"2026-12-15","confirmed":false,"url":"https://we.talentsprint.com/","note":"2-year program for women engineers in India, 1st/2nd years — scholarship + Google mentorship."},
+{"id":"yc-w27","section":"startup","title":"Y Combinator Winter 2027 batch","org":"Y Combinator","deadline":"2026-08-04","confirmed":false,"url":"https://www.ycombinator.com/apply","note":"If HospitalOS-style building continues, this is the bar. Free Startup School anytime."},
+{"id":"neo","section":"startup","title":"Neo Scholars 2027","org":"Neo","deadline":"2026-09-15","confirmed":false,"url":"https://neo.com/scholars","note":"Elite CS-student community + $25K grant option (US-centric but international admits exist)."},
+{"id":"zfellows","section":"startup","title":"Z Fellows","org":"Z Fellows","deadline":null,"confirmed":true,"url":"https://www.zfellows.com/","note":"Rolling. $10K + 1-week program for young technical founders."},
+{"id":"neurips-26","section":"startup","title":"NeurIPS 2026 — student volunteer & travel grants","org":"NeurIPS","deadline":"2026-09-30","confirmed":false,"url":"https://neurips.cc/","note":"Volunteer = free registration at the biggest ML conference (Dec 2026). Apps ~Sep–Oct."},
+{"id":"conf-vol","section":"startup","title":"ICML / ICLR 2027 volunteering + travel grants","org":"ML conferences","deadline":null,"confirmed":true,"url":"https://icml.cc/","note":"Watch each conference site ~3 months before event. Never pay full student price — there is always a route."}
+]/*DATA-END*/;
+
+const SECTIONS=[
+ {key:"all",label:"Everything"},
+ {key:"tech",label:"Tech & open source"},
+ {key:"quant",label:"Quant & finance"},
+ {key:"research",label:"Research labs"},
+ {key:"fellowship",label:"AI fellowships"},
+ {key:"hackathon",label:"Hackathons"},
+ {key:"women",label:"For women"},
+ {key:"startup",label:"Startups & confs"}
+];
+
+const BRIEFS={
+all:`<h3>How to read this almanac</h3>
+<p>Rolling admissions is the whole game: most seats are gone weeks before printed deadlines, so treat every OPEN date as the real deadline. Apply within the first week a posting goes live. Keep one spreadsheet: company, date applied, status, next step.</p>
+<h4>Foundation for everything (start this week)</h4>
+<p>1) Resume: use Jake's Resume template (search "Jake's resume LaTeX" — a free Overleaf template that machine screeners parse cleanly). One page, single column. 2) One shipped project with real users beats three tutorials — deploy something and put the link on the resume. 3) A clean GitHub profile: pin 2 repos with good READMEs. 4) LinkedIn: photo, headline "CS @ BITS Pilani '30 · builder of X", and connect with BITS seniors at every target firm — referrals are how most resumes get read.</p>`,
+tech:`<h3>Prep notes — tech, open source & competitive programming</h3>
+<h4>Timeline</h4><p>Wave 1 opens Jul–Oct 2026 (Amazon first, Google STEP ~Sep–Oct with a 2–4 week window, NVIDIA Ignite only Oct 6–19). Wave 2 (most mid-size firms) Nov 2026–Feb 2027. Startups Mar–May 2027. Meanwhile 2026 itself: MLH Fellowship closes this month, LFX in August, ICPC/Hacker Cup registration through September, Hacktoberfest and IEEEXtreme in October, Advent of Code in December.</p>
+<h4>DSA prep, from scratch</h4><p>You already do Codeforces — that's 80% of the battle. Add interview-pattern practice: NeetCode 150 (neetcode.io — free video solutions grouped by pattern), then LeetCode company-tagged lists. Target: comfortable with LC-medium in 25 min while talking out loud.</p>
+<h4>Projects & fundamentals</h4><p>build-your-own-x on GitHub (rebuild a database/shell/interpreter — instant depth in interviews). CS50 (free, Harvard) if any fundamentals feel shaky. Ship one AI-flavored app with users — recruiters now explicitly scan for AI-tool fluency, and Google/Meta even allow AI assistants in some interviews.</p>
+<h4>Early-ID programs built for 1st/2nd years</h4><p>Google STEP, Microsoft Explore, NVIDIA Ignite, Amazon Propel, MongoDB Next in Tech, Duolingo Thrive, SPARX. These exist precisely because you have no experience yet — most students don't know they exist. Apply to all you're eligible for.</p>`,
+quant:`<h3>Prep notes — quant & finance</h3>
+<h4>Timeline</h4><p>Every top firm (Jane Street, Citadel, HRT, Optiver, SIG, DE Shaw, Two Sigma) opens Aug 2026 and most offers are signed by Dec 2026–Jan 2027. Citadel is live right now. Apply to 5–8 firms — the prep overlaps completely. Meanwhile: WorldQuant BRAIN is open to you today, the IQC and IMC Prosperity contests run early 2027, and Citadel datathons invite year-round.</p>
+<h4>The canon, in order</h4><p>1) Probability first: Harvard Stat 110 (Blitzstein, free on YouTube) or MIT 6.041. 2) "A Practical Guide to Quantitative Finance Interviews" by Xinfeng Zhou — the green book. Budget 6–8 weeks; cramming is detectable. 3) "Fifty Challenging Problems in Probability" (Mosteller) for brainteasers. 4) Heard on the Street (Crack) for breadth.</p>
+<h4>Daily drills</h4><p>Zetamac (arithmetic-speed game at zetamac.com) 30 min/day — target 30+ on the 2-minute default; this alone decides Optiver/SIG online tests. Brainteasers: brainstellar.com (free). Mock questions: openquant.co and quantguide.io. Your Codeforces habit directly feeds the coding rounds — firms like HRT weight competitive programming heavily.</p>
+<h4>Realism</h4><p>Citadel's acceptance rate is ~0.4%. The hedge: WorldQuant BRAIN has zero gatekeeping, India prop shops (Graviton/Quadeye/AlphaGrep) recruit on CP ratings, and a strong 2nd-year Codeforces rating is a legitimate signal these firms actually scout.</p>`,
+research:`<h3>Prep notes — research labs & cold-emailing professors</h3>
+<h4>The cold-email playbook (AI + neuroscience)</h4><p>Cold emails run &lt;5% response rates when generic — here's how to not be generic. Finding targets: csrankings.org (filter by "Artificial Intelligence" + country), then each professor's lab page — many literally have an "openings / join us" page saying whether they take remote undergrad interns. For neuroscience: Neuromatch's mentor network, janelia.org, and Google Scholar → search a topic → click authors → lab sites. Also search "[topic] lab openings undergraduate remote" — labs that want help say so.</p>
+<h4>The email itself</h4><p>Subject: "Undergrad interested in [their specific 2025/26 paper topic]". Body, 5 sentences max: who you are (CS @ BITS Pilani), ONE specific thing about their recent paper (proves you read it), one thing you've built that's relevant (link), the ask ("any remote research tasks I could contribute to, unpaid is fine"), attach 1-page resume. Send Tue–Thu morning their time. Follow up once after 7 days. Send 30, expect 2–4 replies — it's a volume + specificity game.</p>
+<h4>Skill floor before emailing</h4><p>Karpathy's "Neural Networks: Zero to Hero" (free YouTube — build GPT from scratch), fast.ai Practical Deep Learning, then Stanford CS231n (vision) or CS224n (NLP) lecture series, all free. Reading papers: S. Keshav's "How to Read a Paper" 3-pass method; find papers via paperswithcode.com. For neuro: Neuromatch's entire curriculum is free online year-round even outside the July course.</p>
+<h4>Structured remote programs</h4><p>Neuromatch (Feb–Mar apps), MITACS (Aug–Sep, for Canada summer), NTU India Connect (winter intake ~Sep), SPAR and ML Collective (rolling, remote). IAS SRFP places you inside Indian neuroscience labs (IISc CNS, NBRC) — realistic and excellent for a 1st/2nd-year.</p>`,
+fellowship:`<h3>Prep notes — AI research fellowships</h3>
+<h4>Ladder for someone starting now</h4><p>Year 1: ARENA curriculum (arena-resources on GitHub — free, hands-on transformers + RL + interpretability, the de-facto alignment bootcamp syllabus), Neel Nanda's "Getting started in mechanistic interpretability" guide (neelnanda.io), and replicate one paper end-to-end. Year 1–2: SPAR, AI Safety Camp, or an ML Collective project → a public writeup or arXiv preprint. Year 2+: MATS, Cohere Scholars, Fatima Fellowship. Anthropic Fellows is the top rung — no PhD required but expects strong engineering evidence.</p>
+<h4>Where fellowships get announced</h4><p>aisafety.com/events-and-training (live directory), the Alignment Forum, and each lab's careers page. Most cycles: applications ~2–4 months before cohort start, decided fast.</p>
+<h4>What applications actually score</h4><p>Reviewers weight demonstrated research output over GPA: a well-scoped project, clean code, clear writeup. One finished, public, honest replication beats five half-projects.</p>`,
+hackathon:`<h3>Prep notes — hackathons</h3>
+<h4>Where to watch</h4><p>Devfolio + Unstop (India, everything drops here first), MLH 2027 season calendar (global + digital), Devpost (online, sponsor-prize heavy). HackMIT 2026 closed July 4 — calendar June 2027 for the next one. October is the dense month: Hacktoberfest, ETHIndia apps, IEEEXtreme.</p>
+<h4>Winning playbook</h4><p>Pre-build your boilerplate: a Next.js + Firebase/Supabase starter you can clone, so hour 1 is features not setup. Demo &gt; code: judges see 3 minutes, so rehearse the pitch and lead with the problem. Use sponsor APIs deliberately — sponsor prizes have 10x less competition than the grand prize. Team of 3–4 with one designer beats 4 backend devs.</p>
+<h4>Why bother (1st year)</h4><p>Hackathon wins are legal resume filler when you have no internships, they feed the "projects" section, and Indian corporate hackathons (Flipkart GRiD, Amazon HackOn, Myntra HackerRamp) hand out PPIs — actual internship offers — to finalists.</p>`,
+women:`<h3>Prep notes — opportunities for women</h3>
+<h4>Do these first (free or urgent)</h4><p>Join Rewriting the Code today — free, 40K+ members, private job board + referrals. Myntra HackerRamp registration typically closes late July — check Unstop this week. Amazon WoW registration (Jul–Sep) is the single highest-leverage India pipeline for women engineering students: it feeds directly into Amazon internships. Outreachy's December cohort (US$7,000, fully remote open-source) opens applications around August.</p>
+<h4>The scholarship stack</h4><p>Adobe India WIT (tuition + internship + GHC India trip, ~Sep–Oct), Generation Google APAC (~Dec), TalentSprint WE by Google (1st/2nd years exactly). GHC India in Bengaluru is a genuine hiring floor — companies interview on-site; student rates + scholarships exist.</p>
+<h4>Contest → offer pipelines (India)</h4><p>TechGig Geek Goddess (~Sep), Walmart CodeHers (~Dec–Jan), Flipkart Runway (~Jan–Feb): women-only contests where finalists get interviews or PPOs directly. Lower competition than open contests, same prize.</p>
+<h4>Quant/finance women's pipelines</h4><p>HRT Women in Trading & Tech (built for 1st/2nd years), Goldman Sachs women's summits, D. E. Shaw Ascender (India), Jane Street's women-focused events, Citadel's women's datathons via Correlation One. These are lower-competition side doors into the exact firms in the Quant chapter.</p>`,
+startup:`<h3>Prep notes — startups, accelerators & conferences</h3>
+<h4>Realistic now</h4><p>YC Startup School (free, self-paced, no admission), Z Fellows (rolling, young technical founders), campus E-Cell events, and building in public. YC itself and Neo are the bar to build toward — YC W27 apps close early Aug 2026 if HospitalOS ever becomes a company.</p>
+<h4>Conferences without money</h4><p>Volunteer: NeurIPS (Dec 2026) / ICML / ICLR student volunteers get free registration (apps ~3 months pre-event); GHC India scholarships; ETHIndia-style events fund travel for accepted hackers. Never pay full conference price as a student — there is always a scholarship/volunteer route.</p>`};
+
+function esc(s){return s.replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
+const DATA=(window.OPPORTUNITIES&&window.OPPORTUNITIES.length?window.OPPORTUNITIES:SEED);
+let cur="all",q="";
+const tabsEl=document.getElementById("tabs"),rowsEl=document.getElementById("rows"),briefEl=document.getElementById("brief");
+
+SECTIONS.forEach(s=>{
+  const b=document.createElement("button");b.className="tab"+(s.key===cur?" active":"");
+  b.textContent=s.label;
+  b.onclick=()=>{cur=s.key;document.querySelectorAll(".tab").forEach(t=>t.classList.remove("active"));b.classList.add("active");render()};
+  tabsEl.appendChild(b);
+});
+document.getElementById("search").addEventListener("input",e=>{q=e.target.value.toLowerCase();render()});
+document.getElementById("briefToggle").onclick=()=>briefEl.classList.toggle("open");
+
+function status(d){
+  if(!d.deadline)return{cls:"c-roll",txt:"Rolling",days:Infinity};
+  const ms=new Date(d.deadline+"T23:59:59")-new Date(),days=ms/864e5;
+  if(ms<0)return{cls:"c-gone",txt:"Closed",days:-1};
+  if(days<=1)return{cls:"c-last",txt:"Last day",days};
+  if(days<=5)return{cls:"c-soon",txt:"Closing soon",days};
+  return{cls:"c-open",txt:"Open",days};
+}
+function cd(days){
+  if(days===Infinity)return"—";if(days<0)return"passed";
+  const d=Math.floor(days),h=Math.floor((days-d)*24);
+  return d>0?`${d}d ${h}h`:`${h} hours`;
+}
+function render(){
+  briefEl.innerHTML=BRIEFS[cur];
+  let list=DATA.filter(o=>(cur==="all"||o.section===cur)&&(!q||(o.title+o.org+(o.note||"")).toLowerCase().includes(q)));
+  list.sort((a,b)=>{const sa=status(a),sb=status(b);const ka=sa.days<0?1e9:sa.days,kb=sb.days<0?1e9:sb.days;return ka-kb});
+  rowsEl.innerHTML=list.map(o=>{
+    const s=status(o);
+    const dl=o.deadline?new Date(o.deadline+"T00:00").toLocaleDateString("en-IN",{day:"2-digit",month:"short",year:"numeric"}):"open / rolling";
+    return`<div class="row">
+      <div class="op-cell"><span class="op-name">${esc(o.title)}</span><span class="op-note">${esc(o.note||"")}</span></div>
+      <span class="op-org">${esc(o.org)}</span>
+      <span class="dl">${dl}${o.confirmed?"":'<span class="dl-est">est. — verify</span>'}</span>
+      <span class="cdown">${cd(s.days)}</span>
+      <span><span class="chip ${s.cls}">${s.txt}</span></span>
+      <a class="apply ${s.txt==="Closed"?"gone":""}" href="${esc(o.url)}" target="_blank" rel="noopener">${s.txt==="Closed"?"Closed":"Apply ↗"}</a>
+    </div>`;
+  }).join("");
+  document.getElementById("count").textContent=`${list.length} listings · ${DATA.filter(o=>{const s=status(o);return s.days>=0&&s.days<=5}).length} closing within five days`;
+  const up=DATA.map(o=>({o,s:status(o)})).filter(x=>x.s.days>=0&&x.s.days<1e8).sort((a,b)=>a.s.days-b.s.days)[0];
+  document.getElementById("nextdep").textContent=up?`${up.o.title.slice(0,36)} · ${cd(up.s.days)}`:"—";
+}
+function tick(){document.getElementById("clock").textContent=new Date().toLocaleString("en-IN",{dateStyle:"medium",timeStyle:"short"})}
+tick();setInterval(tick,1000);setInterval(render,60000);render();
+</script>
+</body>
+</html>
