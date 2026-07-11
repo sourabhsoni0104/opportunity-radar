@@ -9,6 +9,1086 @@
   "url": "https://www.google.com/about/careers/applications/jobs/results/",
   "note": "Posting is LIVE and rolling \u2014 includes Bengaluru. Google windows close in 2\u20134 weeks. Apply immediately."
  },
+  {
+  "id": "g-swe-27",
+  "section": "tech",
+  "title": "Google Software Engineering Intern, Summer 2027",
+  "org": "Google (incl. Bengaluru)",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://www.google.com/about/careers/applications/jobs/results/",
+  "note": "Posting is LIVE and rolling \u2014 includes Bengaluru. Google windows close in 2\u20134 weeks. Apply immediately."
+ },
+ {
+  "id": "g-step-27",
+  "section": "tech",
+  "title": "Google STEP 2027 (India)",
+  "org": "Google",
+  "deadline": "2026-10-31",
+  "confirmed": false,
+  "url": "https://buildyourfuture.withgoogle.com/programs/step/",
+  "note": "For 1st/2nd-years. India window historically opens Sep\u2013Oct. Check weekly from September."
+ },
+ {
+  "id": "msft-27",
+  "section": "tech",
+  "title": "Microsoft Internships 2027 (India)",
+  "org": "Microsoft",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://careers.microsoft.com/v2/global/en/universityinternship",
+  "note": "Explore program targets 1st/2nd years. India roles open ~August."
+ },
+ {
+  "id": "amzn-27",
+  "section": "tech",
+  "title": "Amazon SDE Intern 2027 (India)",
+  "org": "Amazon",
+  "deadline": "2026-08-31",
+  "confirmed": false,
+  "url": "https://www.amazon.jobs/en/teams/internships-for-students",
+  "note": "Amazon posts FIRST every cycle (Jul\u2013Aug). Watch from now."
+ },
+ {
+  "id": "nvda-27",
+  "section": "tech",
+  "title": "NVIDIA Ignite 2027",
+  "org": "NVIDIA",
+  "deadline": "2026-10-19",
+  "confirmed": false,
+  "url": "https://www.nvidia.com/en-us/about-nvidia/careers/university-recruiting/",
+  "note": "13-day window only (historically Oct 6\u201319). Early-ID program for 1st/2nd years."
+ },
+ {
+  "id": "meta-27",
+  "section": "tech",
+  "title": "Meta SWE Intern 2027",
+  "org": "Meta",
+  "deadline": "2026-10-15",
+  "confirmed": false,
+  "url": "https://www.metacareers.com/careerprograms/students",
+  "note": "Opens Sep\u2013Oct; fast pipeline once you're in."
+ },
+ {
+  "id": "fk-grid",
+  "section": "tech",
+  "title": "Flipkart GRiD 8.0",
+  "org": "Flipkart (Unstop)",
+  "deadline": "2026-08-15",
+  "confirmed": false,
+  "url": "https://unstop.com/",
+  "note": "India's biggest campus challenge \u2192 PPIs/internships. Reg. usually Jul\u2013Aug."
+ },
+ {
+  "id": "gsoc-27",
+  "section": "tech",
+  "title": "Google Summer of Code 2027",
+  "org": "Google / Open source",
+  "deadline": "2027-04-06",
+  "confirmed": false,
+  "url": "https://summerofcode.withgoogle.com/",
+  "note": "Remote, paid, perfect for 1st-years. Start contributing to an org NOW; proposals due ~April."
+ },
+ {
+  "id": "mlh-fellow",
+  "section": "tech",
+  "title": "MLH Fellowship \u2014 Fall 2026 batch (remote)",
+  "org": "Major League Hacking",
+  "deadline": "2026-07-31",
+  "confirmed": false,
+  "url": "https://fellowship.mlh.io/",
+  "note": "12-week remote open-source fellowship, stipend available, first-years welcome. Fall apps close soon."
+ },
+ {
+  "id": "lfx-fall",
+  "section": "tech",
+  "title": "LFX Mentorship \u2014 Sep\u2013Nov 2026 term (remote, paid)",
+  "org": "Linux Foundation",
+  "deadline": "2026-08-11",
+  "confirmed": false,
+  "url": "https://mentorship.lfx.linuxfoundation.org/",
+  "note": "Paid remote open-source mentorship on real CNCF/Linux projects. Applications for fall term open mid-year."
+ },
+ {
+  "id": "hacktober",
+  "section": "tech",
+  "title": "Hacktoberfest 2026",
+  "org": "DigitalOcean + partners",
+  "deadline": "2026-10-31",
+  "confirmed": true,
+  "url": "https://hacktoberfest.com/",
+  "note": "Every October. Four merged PRs = completion. The gentlest on-ramp into open source before a GSoC run."
+ },
+ {
+  "id": "winter-in",
+  "section": "tech",
+  "title": "Winter internships, Dec 2026 (India, off-cycle)",
+  "org": "Internshala / Unstop",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://internshala.com/internships/winter-internship",
+  "note": "Rolling. Startups post Nov\u2013Dec winter roles; realistic first-internship territory for a 1st-year."
+ },
+ {
+  "id": "simplify",
+  "section": "tech",
+  "title": "Simplify Summer-2027 live tracker (auto-scraped daily)",
+  "org": "GitHub / SimplifyJobs",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://github.com/SimplifyJobs/Summer2027-Internships",
+  "note": "The canonical daily-updated list. Our scraper pulls from here every morning."
+ },
+ {
+  "id": "citadel-27",
+  "section": "quant",
+  "title": "Citadel & Citadel Securities 2027 Internships",
+  "org": "Citadel",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://www.citadel.com/careers/open-opportunities/students/internships/",
+  "note": "LIVE NOW, rolling \u2014 ~70% of offers signed by mid-October. QR/QT/SWE tracks; apply to multiple."
+ },
+ {
+  "id": "js-27",
+  "section": "quant",
+  "title": "Jane Street 2027 Internships (QT/QR/SWE)",
+  "org": "Jane Street",
+  "deadline": "2026-10-31",
+  "confirmed": false,
+  "url": "https://www.janestreet.com/join-jane-street/internships/",
+  "note": "NY/London/HK open ~Aug 2026. HK office runs a dedicated India round (info session ~April\u2013May 2027, janestreet.com/gtku)."
+ },
+ {
+  "id": "optiver-27",
+  "section": "quant",
+  "title": "Optiver Summer 2027 (Trading & Tech)",
+  "org": "Optiver",
+  "deadline": "2026-10-31",
+  "confirmed": false,
+  "url": "https://optiver.com/working-at-optiver/career-opportunities/",
+  "note": "Opens ~Aug. The 80-in-8 mental-math test is the first filter \u2014 drill Zetamac."
+ },
+ {
+  "id": "optiver-off",
+  "section": "quant",
+  "title": "Optiver / IMC off-cycle & winter internships 2026\u201327",
+  "org": "Optiver \u00b7 IMC",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://optiver.com/working-at-optiver/career-opportunities/",
+  "note": "Both firms run off-season (winter/spring) intern intakes outside the summer rush \u2014 less competition, same door."
+ },
+ {
+  "id": "deshaw-27",
+  "section": "quant",
+  "title": "D. E. Shaw India \u2014 Summer Intern 2027",
+  "org": "D. E. Shaw & Co",
+  "deadline": "2026-08-31",
+  "confirmed": false,
+  "url": "https://www.deshawindia.com/careers",
+  "note": "Hyderabad office recruits BITS heavily, on- and off-campus."
+ },
+ {
+  "id": "hrt-27",
+  "section": "quant",
+  "title": "Hudson River Trading 2027 Internships",
+  "org": "HRT",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://www.hudsonrivertrading.com/careers/",
+  "note": "Algo dev / SWE / quant research. Opens ~Aug 2026."
+ },
+ {
+  "id": "gs-27",
+  "section": "quant",
+  "title": "Goldman Sachs 2027 Summer Analyst (India)",
+  "org": "Goldman Sachs",
+  "deadline": "2026-08-31",
+  "confirmed": false,
+  "url": "https://www.goldmansachs.com/careers/students/programs-and-internships",
+  "note": "Bengaluru engineering + global markets. India apps open ~Aug\u2013Sep."
+ },
+ {
+  "id": "jpm-27",
+  "section": "quant",
+  "title": "J.P. Morgan 2027 Summer Internship (India)",
+  "org": "JPMorganChase",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://careers.jpmorgan.com/in/en/students/programs",
+  "note": "SWE + quant tracks; code-for-good hackathon is a side door."
+ },
+ {
+  "id": "wq-brain",
+  "section": "quant",
+  "title": "WorldQuant BRAIN Research Consultant",
+  "org": "WorldQuant",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://platform.worldquantbrain.com/",
+  "note": "Rolling, remote, open to 1st-years. Build alphas online \u2192 paid consultancy. Best quant entry point available to you TODAY."
+ },
+ {
+  "id": "in-props",
+  "section": "quant",
+  "title": "India prop shops: Tower Research, Graviton, Quadeye, AlphaGrep",
+  "org": "Various",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://www.tower-research.com/open-positions/",
+  "note": "Recruit via campus + coding contests (Codeforces/CodeChef ratings matter here). Keep CP sharp."
+ },
+ {
+  "id": "nma-cn",
+  "section": "research",
+  "title": "Neuromatch Academy \u2014 Computational Neuroscience 2027",
+  "org": "Neuromatch (remote)",
+  "deadline": "2027-03-15",
+  "confirmed": false,
+  "url": "https://neuromatch.io/computational-neuroscience/",
+  "note": "Apps open Feb 2027, close ~mid-March; course runs July. Income-adjusted fees. THE entry into comp-neuro."
+ },
+ {
+  "id": "nma-dl",
+  "section": "research",
+  "title": "Neuromatch Academy \u2014 Deep Learning / NeuroAI 2027",
+  "org": "Neuromatch (remote)",
+  "deadline": "2027-03-15",
+  "confirmed": false,
+  "url": "https://neuromatch.io/courses/",
+  "note": "Same portal & window as comp-neuro track. Group research project + mentor included."
+ },
+ {
+  "id": "mitacs-27",
+  "section": "research",
+  "title": "MITACS Globalink Research Internship 2027 (Canada)",
+  "org": "MITACS",
+  "deadline": "2026-09-17",
+  "confirmed": false,
+  "url": "https://www.mitacs.ca/our-programs/globalink-research-internship-students/",
+  "note": "Fully funded 12-week summer research in Canada. Apply in Aug\u2013Sep of your 2nd year."
+ },
+ {
+  "id": "daad-27",
+  "section": "research",
+  "title": "DAAD WISE 2027 (Germany)",
+  "org": "DAAD",
+  "deadline": "2026-11-15",
+  "confirmed": false,
+  "url": "https://www.daad.in/en/study-research-in-germany/scholarships/wise/",
+  "note": "Funded summer research in Germany; typically for 3rd-years \u2014 bookmark for your cycle."
+ },
+ {
+  "id": "epfl-e3",
+  "section": "research",
+  "title": "EPFL E3 Excellence Internship 2027",
+  "org": "EPFL, Switzerland",
+  "deadline": "2026-12-01",
+  "confirmed": false,
+  "url": "https://www.epfl.ch/schools/ic/education/excellence-internships/",
+  "note": "Paid summer research at a top-5 European CS school."
+ },
+ {
+  "id": "eth-ssrf",
+  "section": "research",
+  "title": "ETH Z\u00fcrich Student Summer Research Fellowship 2027",
+  "org": "ETH Z\u00fcrich",
+  "deadline": "2026-12-15",
+  "confirmed": false,
+  "url": "https://inf.ethz.ch/studies/summer-research-fellowship.html",
+  "note": "CS dept fellowship, fully funded, undergrads welcome (2 yrs of study by start)."
+ },
+ {
+  "id": "ias-srfp",
+  "section": "research",
+  "title": "IAS\u2013INSA\u2013NASI Summer Research Fellowship 2027 (India)",
+  "org": "Indian Academy of Sciences",
+  "deadline": "2026-11-30",
+  "confirmed": false,
+  "url": "https://www.ias.ac.in/Initiatives/Science_Education/Summer_Research_Fellowship_Programme",
+  "note": "Places you with IISc/IIT/TIFR professors incl. neuroscience labs. Apps ~Oct\u2013Nov."
+ },
+ {
+  "id": "spar",
+  "section": "research",
+  "title": "SPAR \u2014 Supervised Program for Alignment Research (remote)",
+  "org": "SPAR",
+  "deadline": "2026-08-15",
+  "confirmed": false,
+  "url": "https://sparai.org/",
+  "note": "Remote, part-time AI-safety research with a mentor. Two rounds/year; undergrad-friendly."
+ },
+ {
+  "id": "mlc",
+  "section": "research",
+  "title": "ML Collective \u2014 open research collaboration",
+  "org": "MLC (remote)",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://mlcollective.org/",
+  "note": "Rolling. Join reading groups, pitch a project, get unaffiliated-researcher mentorship. Zero gatekeeping."
+ },
+ {
+  "id": "kaggle",
+  "section": "research",
+  "title": "Kaggle competitions (rolling, remote)",
+  "org": "Kaggle / Google",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://www.kaggle.com/competitions",
+  "note": "Live ML competitions with real datasets. A medal is a research-adjacent credential professors and quant firms both recognise."
+ },
+ {
+  "id": "coldmail",
+  "section": "research",
+  "title": "Cold-email pipeline: AI + neuroscience professors with listed openings",
+  "org": "Self-directed",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://csrankings.org/",
+  "note": "Rolling. Open the preparation notes above \u2014 full hunting strategy + email template inside."
+ },
+ {
+  "id": "anthropic-fellows",
+  "section": "fellowship",
+  "title": "Anthropic Fellows Program (next cohort)",
+  "org": "Anthropic",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/",
+  "note": "4-month paid AI-safety research, $11\u201315K/mo. Aimed at strong engineers (no PhD required). Aspirational \u2014 build toward it."
+ },
+ {
+  "id": "mats",
+  "section": "fellowship",
+  "title": "MATS \u2014 ML Alignment Theory Scholars (Winter 2027)",
+  "org": "MATS",
+  "deadline": "2026-10-01",
+  "confirmed": false,
+  "url": "https://www.matsprogram.org/",
+  "note": "Mentored alignment research (Berkeley + remote streams). Apps ~Oct for winter cohort."
+ },
+ {
+  "id": "cohere-scholars",
+  "section": "fellowship",
+  "title": "Cohere Labs Scholars Program 2027",
+  "org": "Cohere",
+  "deadline": "2026-08-29",
+  "confirmed": false,
+  "url": "https://cohere.com/research/scholars-program",
+  "note": "8-month paid, remote-friendly research residency. No PhD needed; unusual backgrounds welcome."
+ },
+ {
+  "id": "fatima",
+  "section": "fellowship",
+  "title": "Fatima Fellowship 2027 (remote)",
+  "org": "Fatima Fellowship",
+  "deadline": "2027-02-15",
+  "confirmed": false,
+  "url": "https://www.fatimafellowship.com/",
+  "note": "9-month remote research mentorship pairing you with a PhD/industry researcher. Undergrad-friendly."
+ },
+ {
+  "id": "aisc",
+  "section": "fellowship",
+  "title": "AI Safety Camp 2027 (remote)",
+  "org": "AI Safety Camp",
+  "deadline": "2026-11-15",
+  "confirmed": false,
+  "url": "https://www.aisafety.camp/",
+  "note": "Part-time remote research teams, ~Jan\u2013Apr 2027. One of the friendliest first research experiences in safety."
+ },
+ {
+  "id": "gsoc-f",
+  "section": "fellowship",
+  "title": "LASR Labs / other alignment fellowships tracker",
+  "org": "AISafety.com",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://www.aisafety.com/events-and-training",
+  "note": "Rolling directory of every AI-safety fellowship/bootcamp with live deadlines."
+ },
+ {
+  "id": "hackmit-26",
+  "section": "hackathon",
+  "title": "HackMIT 2026 (event Sep 19\u201320)",
+  "org": "MIT",
+  "deadline": "2026-07-04",
+  "confirmed": true,
+  "url": "https://hackmit.org/",
+  "note": "Registration closed July 4, 2026. Set a June-2027 reminder for next cycle \u2014 you flagged this one before."
+ },
+ {
+  "id": "sih-26",
+  "section": "hackathon",
+  "title": "Smart India Hackathon 2026",
+  "org": "Ministry of Education",
+  "deadline": "2026-09-15",
+  "confirmed": false,
+  "url": "https://sih.gov.in/",
+  "note": "India's biggest hackathon; team via your college SPOC. Reg. ~Aug\u2013Sep."
+ },
+ {
+  "id": "ethindia-26",
+  "section": "hackathon",
+  "title": "ETHIndia 2026 (Devfolio)",
+  "org": "Devfolio",
+  "deadline": "2026-10-31",
+  "confirmed": false,
+  "url": "https://ethindia.co/",
+  "note": "Asia's largest Ethereum hackathon, Bengaluru, ~December. Great travel-grant culture."
+ },
+ {
+  "id": "hackon-26",
+  "section": "hackathon",
+  "title": "Amazon HackOn 2026",
+  "org": "Amazon India",
+  "deadline": "2026-08-31",
+  "confirmed": false,
+  "url": "https://unstop.com/",
+  "note": "Amazon's India hackathon \u2014 finalists routinely receive PPI conversations. Watch Unstop for the drop."
+ },
+ {
+  "id": "imagine-27",
+  "section": "hackathon",
+  "title": "Microsoft Imagine Cup 2027",
+  "org": "Microsoft",
+  "deadline": "2026-12-15",
+  "confirmed": false,
+  "url": "https://imaginecup.microsoft.com/",
+  "note": "Global student startup/AI competition; rounds run into spring 2027."
+ },
+ {
+  "id": "genai-x",
+  "section": "hackathon",
+  "title": "Google GenAI Exchange Hackathon (India)",
+  "org": "Google Cloud",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://vision.hack2skill.com/",
+  "note": "India-focused GenAI build event; watch Hack2skill + Google Cloud India."
+ },
+ {
+  "id": "hackercup",
+  "section": "hackathon",
+  "title": "Meta Hacker Cup 2026",
+  "org": "Meta",
+  "deadline": "2026-09-15",
+  "confirmed": false,
+  "url": "https://www.facebook.com/codingcompetitions/hacker-cup",
+  "note": "The big annual CP tournament \u2014 rounds Sep\u2013Oct. Your Codeforces habit transfers directly."
+ },
+ {
+  "id": "icpc-26",
+  "section": "hackathon",
+  "title": "ICPC 2026\u201327 India regionals (Amritapuri / Kanpur / Gwalior)",
+  "org": "ICPC",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://icpc.global/",
+  "note": "Team of 3 + coach; registration ~Sep\u2013Oct. The most respected CP credential quant firms scout."
+ },
+ {
+  "id": "ieee-x",
+  "section": "hackathon",
+  "title": "IEEEXtreme 20.0 (24-hour global CP, Oct 2026)",
+  "org": "IEEE",
+  "deadline": "2026-10-15",
+  "confirmed": false,
+  "url": "https://ieeextreme.org/",
+  "note": "24-hour team programming marathon; needs IEEE student membership (cheap in India)."
+ },
+ {
+  "id": "aoc-26",
+  "section": "hackathon",
+  "title": "Advent of Code 2026 (Dec 1\u201325)",
+  "org": "Eric Wastl",
+  "deadline": "2026-12-01",
+  "confirmed": true,
+  "url": "https://adventofcode.com/",
+  "note": "25 days of puzzles every December. Free, cult-loved, and a lovely daily ritual during winter break."
+ },
+ {
+  "id": "mlh-27",
+  "section": "hackathon",
+  "title": "MLH 2027 Season (global calendar)",
+  "org": "Major League Hacking",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://mlh.io/seasons/2027/events",
+  "note": "Rolling calendar of student hackathons incl. India + digital-only events."
+ },
+ {
+  "id": "devfolio",
+  "section": "hackathon",
+  "title": "Devfolio + Unstop live feeds",
+  "org": "Devfolio / Unstop",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://devfolio.co/hackathons",
+  "note": "The two boards where every Indian hackathon drops first. Scraper watches these."
+ },
+ {
+  "id": "wow-26",
+  "section": "women",
+  "title": "Amazon WoW 2026 (India)",
+  "org": "Amazon India",
+  "deadline": "2026-09-15",
+  "confirmed": false,
+  "url": "https://www.amazon.jobs/content/en/career-programs/university/wow",
+  "note": "Networking platform + direct SDE internship pipeline for women engineering students. Reg. Jul\u2013Sep \u2014 this is YOUR window."
+ },
+ {
+  "id": "outreachy",
+  "section": "women",
+  "title": "Outreachy \u2014 December 2026 cohort (remote, paid)",
+  "org": "Software Freedom Conservancy",
+  "deadline": "2026-09-01",
+  "confirmed": false,
+  "url": "https://www.outreachy.org/",
+  "note": "$7,000 remote open-source internships for women & underrepresented groups. Initial apps ~Aug; December cohort."
+ },
+ {
+  "id": "myntra-26",
+  "section": "women",
+  "title": "Myntra HackerRamp: WeForShe 2026",
+  "org": "Myntra",
+  "deadline": "2026-07-31",
+  "confirmed": false,
+  "url": "https://unstop.com/",
+  "note": "Women-only hackathon \u2192 internship PPIs. Registration typically July \u2014 check Unstop this week."
+ },
+ {
+  "id": "adobe-wit",
+  "section": "women",
+  "title": "Adobe India Women-in-Technology Scholarship 2027",
+  "org": "Adobe",
+  "deadline": "2026-10-15",
+  "confirmed": false,
+  "url": "https://research.adobe.com/scholarship/",
+  "note": "Covers tuition + Adobe India internship + mentor + GHC India trip."
+ },
+ {
+  "id": "gen-google",
+  "section": "women",
+  "title": "Generation Google Scholarship 2027 (APAC)",
+  "org": "Google",
+  "deadline": "2026-12-31",
+  "confirmed": false,
+  "url": "https://buildyourfuture.withgoogle.com/scholarships/generation-google-scholarship-apac",
+  "note": "USD 2,500 + community for women in CS, 1st/2nd years eligible."
+ },
+ {
+  "id": "ghc-india",
+  "section": "women",
+  "title": "Grace Hopper Celebration India 2026",
+  "org": "AnitaB.org",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://ghcindia.anitab.org/",
+  "note": "Bengaluru, ~November. Massive career fair \u2014 companies interview on the floor. Student scholarships available."
+ },
+ {
+  "id": "hrt-wit",
+  "section": "women",
+  "title": "HRT Women in Trading & Technology (early ID)",
+  "org": "Hudson River Trading",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://www.hudsonrivertrading.com/careers/",
+  "note": "Designed for 1st/2nd-year women \u2014 direct pipeline into HRT internships."
+ },
+ {
+  "id": "deshaw-ascend",
+  "section": "women",
+  "title": "D. E. Shaw India \u2014 Ascender / women's programs",
+  "org": "D. E. Shaw & Co",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://www.deshawindia.com/careers",
+  "note": "Early-engagement program for women at Indian campuses \u2192 internship pipeline."
+ },
+ {
+  "id": "rtc",
+  "section": "women",
+  "title": "Rewriting the Code \u2014 membership (free, global)",
+  "org": "RTC",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://rewritingthecode.org/",
+  "note": "40K+ women in 110+ countries; scholarships, referrals, mentorship. Join today, costs nothing."
+ },
+ {
+  "id": "we-google",
+  "section": "women",
+  "title": "TalentSprint WE (supported by Google)",
+  "org": "TalentSprint",
+  "deadline": "2026-12-15",
+  "confirmed": false,
+  "url": "https://we.talentsprint.com/",
+  "note": "2-year program for women engineers in India, 1st/2nd years \u2014 scholarship + Google mentorship."
+ },
+ {
+  "id": "yc-w27",
+  "section": "startup",
+  "title": "Y Combinator Winter 2027 batch",
+  "org": "Y Combinator",
+  "deadline": "2026-08-04",
+  "confirmed": false,
+  "url": "https://www.ycombinator.com/apply",
+  "note": "If HospitalOS-style building continues, this is the bar. Free Startup School anytime."
+ },
+ {
+  "id": "neo",
+  "section": "startup",
+  "title": "Neo Scholars 2027",
+  "org": "Neo",
+  "deadline": "2026-09-15",
+  "confirmed": false,
+  "url": "https://neo.com/scholars",
+  "note": "Elite CS-student community + $25K grant option (US-centric but international admits exist)."
+ },
+ {
+  "id": "zfellows",
+  "section": "startup",
+  "title": "Z Fellows",
+  "org": "Z Fellows",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://www.zfellows.com/",
+  "note": "Rolling. $10K + 1-week program for young technical founders."
+ },
+ {
+  "id": "tata-ic",
+  "section": "startup",
+  "title": "Tata Imagination Challenge 2026",
+  "org": "Tata Group",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://unstop.com/",
+  "note": "India's largest student ideathon \u2014 student track, big prize pool, opens ~Aug\u2013Sep."
+ },
+ {
+  "id": "neurips-26",
+  "section": "startup",
+  "title": "NeurIPS 2026 \u2014 student volunteer & travel grants",
+  "org": "NeurIPS (Dec 2026)",
+  "deadline": "2026-09-30",
+  "confirmed": false,
+  "url": "https://neurips.cc/",
+  "note": "Volunteering = free registration to the biggest AI conference. Apps open ~3 months before the December event."
+ },
+ {
+  "id": "conf-vol",
+  "section": "startup",
+  "title": "ICML / ICLR 2027 volunteering + travel grants",
+  "org": "ML conferences",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://icml.cc/",
+  "note": "Rolling \u2014 watch each site ~3 months before the event. Never pay full student price; there is always a route."
+ },
+ {
+  "id": "scr-pika-research-intern-bs-ms-phd",
+  "section": "tech",
+  "title": "Research Intern - BS/MS/PhD \u2014 Pika",
+  "org": "Pika",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.ashbyhq.com/pika/e135acb1-2a0b-47b4-81b2-3cb0f787657a/application",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-meta-research-scientist-intern-monetization-computer-vision",
+  "section": "tech",
+  "title": "Research Scientist Intern - Monetization Computer Vision \u2014 Meta",
+  "org": "Meta",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://www.metacareers.com/jobs/2281218542616482",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-great-gray-legal-compliance-extern",
+  "section": "tech",
+  "title": "Legal & Compliance Extern \u2014 Great Gray",
+  "org": "Great Gray",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/great-gray-group/1b6aeb9b-b5c0-4e74-a23c-d89560e38eb3/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-exowatt-software-engineer-intern-agent-platform-ai",
+  "section": "tech",
+  "title": "Software Engineer Intern - Agent Platform - AI \u2014 Exowatt",
+  "org": "Exowatt",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/exowatt/2623555d-8b81-4f95-8bca-de9fafd2381c/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-xsolla-ai-first-engineer-intern",
+  "section": "tech",
+  "title": "AI-First Engineer Intern \u2014 Xsolla",
+  "org": "Xsolla",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/xsolla/5d5fd6b3-d82f-437a-b251-abf4674ac874/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-xsolla-ai-first-engineer-intern",
+  "section": "tech",
+  "title": "AI-First Engineer Intern \u2014 Xsolla",
+  "org": "Xsolla",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-xsolla-ai-engineer-intern",
+  "section": "tech",
+  "title": "AI Engineer Intern \u2014 Xsolla",
+  "org": "Xsolla",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/xsolla/5ec8e8f7-ed75-4697-a1c0-28a026f2e571/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-amazon-junior-software-development-engineer-jr-developer-pro",
+  "section": "tech",
+  "title": "Junior Software Development Engineer - Jr. Developer Program \u2014 Amazon",
+  "org": "Amazon",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://amazon.jobs/en/jobs/10420146/jr-software-development-engineer-san-luis-obispo-ca-jr-developer-program",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-sika-product-management-apprentice",
+  "section": "tech",
+  "title": "Product Management Apprentice \u2014 Sika",
+  "org": "Sika",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.smartrecruiters.com/SikaAG/744000137117699",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-tesla-software-engineer-intern-energy-engineering",
+  "section": "tech",
+  "title": "Software Engineer Intern - Energy Engineering \u2014 Tesla",
+  "org": "Tesla",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://www.tesla.com/careers/search/job/276333",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-hitachi-energy-computer-vision-research-development-engineer",
+  "section": "tech",
+  "title": "Computer Vision Research & Development Engineer \u2014 Hitachi Energy",
+  "org": "Hitachi Energy",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://hitachi.wd1.myworkdayjobs.com/hitachi/job/Remote---Berkshire-United-Kingdom/Computer-Vision-R-D-Engineer_R0128079",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-aptiv-working-student-interior-sensing-ml",
+  "section": "tech",
+  "title": "Working Student Interior Sensing ML \u2014 Aptiv",
+  "org": "Aptiv",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/Wuppertal-Germany/Working-Student-Interior-Sensing-ML_J000700630",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-alfa-laval-database-analyst-intern",
+  "section": "tech",
+  "title": "Database Analyst Intern \u2014 ALFA LAVAL",
+  "org": "ALFA LAVAL",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://alfalaval.wd3.myworkdayjobs.com/Alfa_Laval_jobs/job/Warminster-PA/Database-Analyst-Intern_JR0046726",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-lexisnexis-risk-solutions-editorial-data-reporting-intern",
+  "section": "tech",
+  "title": "Editorial Data Reporting Intern \u2014 LexisNexis Risk Solutions",
+  "org": "LexisNexis Risk Solutions",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://relx.wd3.myworkdayjobs.com/LexisNexisLegal/job/Home-based-Washington-DC/Editorial-Data-Reporting-Intern_R112971-1",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-ge-healthcare-field-engineer-apprentice",
+  "section": "tech",
+  "title": "Field Engineer Apprentice \u2014 GE Healthcare",
+  "org": "GE Healthcare",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Field-Engineer-Apprentice_R4043420-2",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-ultra-engineering-intern",
+  "section": "tech",
+  "title": "Engineering Intern \u2014 Ultra",
+  "org": "Ultra",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://ultra.wd3.myworkdayjobs.com/ultra-careers/job/San-Diego-CA-United-States/Engineering-Intern_REQ-12205-1",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-chevron-corporation-previous-intern-earth-scientist",
+  "section": "tech",
+  "title": "Previous Intern - Earth Scientist \u2014 Chevron Corporation",
+  "org": "Chevron Corporation",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://chevron.wd5.myworkdayjobs.com/University/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Earth-Scientist--Previous-Intern--Full-Time_R000072337",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-worcester-polytechnic-institute-research-assistant",
+  "section": "tech",
+  "title": "Research Assistant \u2014 Worcester Polytechnic Institute",
+  "org": "Worcester Polytechnic Institute",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://wpi.wd5.myworkdayjobs.com/WPI_External_Career_Site/job/Worcester/Temporary-Research-Assistant_R0003527",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-later-software-development-co-op",
+  "section": "tech",
+  "title": "Software Development Co-op \u2014 Later",
+  "org": "Later",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://job-boards.greenhouse.io/later/jobs/8621762002",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-brevium-data-analyst-assistant",
+  "section": "tech",
+  "title": "Data Analyst Assistant \u2014 Brevium",
+  "org": "Brevium",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://job-boards.greenhouse.io/brevium/jobs/4326783006",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-vital-lyfe-software-engineer-intern",
+  "section": "tech",
+  "title": "Software Engineer Intern \u2014 Vital Lyfe",
+  "org": "Vital Lyfe",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.ashbyhq.com/vital-lyfe/43a79d8f-a8bb-4c57-a411-1bac946128af/application",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-pylon-software-engineer-intern",
+  "section": "tech",
+  "title": "Software Engineer Intern \u2014 Pylon",
+  "org": "Pylon",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.ashbyhq.com/pylon-labs/fcea8b52-81f1-4b0c-b575-d7b180faec4d/application",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-cotiviti-ai-engineer-intern",
+  "section": "tech",
+  "title": "AI Engineer Intern \u2014 Cotiviti",
+  "org": "Cotiviti",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://careers-cotiviti.icims.com/jobs/19531/job?mobile=true&needsRedirect=false",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-uber-freight-data-scientist-intern",
+  "section": "tech",
+  "title": "Data Scientist Intern \u2014 Uber Freight",
+  "org": "Uber Freight",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://job-boards.greenhouse.io/uberfreight/jobs/5194491008",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-eulerity-digital-marketing-intern-technical-ai-automation",
+  "section": "tech",
+  "title": "Digital Marketing Intern - Technical AI & Automation \u2014 Eulerity",
+  "org": "Eulerity",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://job-boards.greenhouse.io/eulerity/jobs/4695806006",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-alberta-investment-management-corporation-student-economics-",
+  "section": "tech",
+  "title": "Student Economics & Investment Research \u2014 Alberta Investment Management Corporation",
+  "org": "Alberta Investment Management Corporation",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://aimco.wd10.myworkdayjobs.com/AIMCoCareers/job/Edmonton/Student--Economics---Investment-Research--Fall-2026-_JR100870",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-caci-software-engineer-intern",
+  "section": "tech",
+  "title": "Software Engineer Intern \u2014 CACI",
+  "org": "CACI",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://caci.wd1.myworkdayjobs.com/external/job/Jessup-MD-US/Software-Engineering-Intern---Fall-2026_328740",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-environmental-defense-fund-climate-health-intern",
+  "section": "tech",
+  "title": "Climate & Health Intern \u2014 Environmental Defense Fund",
+  "org": "Environmental Defense Fund",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://osv-edf.wd5.myworkdayjobs.com/en-US/Confidential/job/Remote---US-Home/Climate---Health-Intern_REQ-002561",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-microchip-technology-applications-engineering-intern",
+  "section": "tech",
+  "title": "Applications Engineering Intern \u2014 Microchip Technology",
+  "org": "Microchip Technology",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---Roseville/Intern---Applications-Engineering_R2542-26",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-the-boeing-company-entry-and-associate-design-and-analysis-e",
+  "section": "tech",
+  "title": "Entry and Associate Design and Analysis Engineers - Electronic Systems Design and Analysis \u2014 The Boeing Company",
+  "org": "The Boeing Company",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://boeing.wd1.myworkdayjobs.com/external_subsidiary/job/USA---Daytona-Beach-FL/Entry-and-Associate-Design-and-Analysis-Engineers--Electronic-Sys-Design---Analy-_JR2026516394-2",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-mckesson-data-governance-analyst-intern",
+  "section": "tech",
+  "title": "Data Governance Analyst Intern \u2014 McKesson",
+  "org": "McKesson",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://mckesson.wd3.myworkdayjobs.com/External_Careers/job/CAN-ON-Mississauga/Data-Governance-Analyst-Intern---Fall-2026_JR0149860",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-aptiv-engineer-intern",
+  "section": "tech",
+  "title": "Engineer Intern \u2014 Aptiv",
+  "org": "Aptiv",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://aptiv.wd5.myworkdayjobs.com/aptiv_careers/job/CAN-Kanata-2-ON---WR/Engineering-Intern---CD1_J000700248",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-sharkninja-codeshark",
+  "section": "tech",
+  "title": "Codeshark \u2014 SharkNinja",
+  "org": "SharkNinja",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4695627006",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-jump-trading-campus-ui-software-engineer-intern",
+  "section": "tech",
+  "title": "Campus UI Software Engineer Intern \u2014 Jump Trading",
+  "org": "Jump Trading",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8003019",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-jump-trading-ai-research-engineer-intern",
+  "section": "tech",
+  "title": "AI Research Engineer Intern \u2014 Jump Trading",
+  "org": "Jump Trading",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8052281",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-jump-trading-campus-software-engineer-intern",
+  "section": "tech",
+  "title": "Campus Software Engineer Intern \u2014 Jump Trading",
+  "org": "Jump Trading",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8002989",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-jump-trading-campus-data-engineer-intern",
+  "section": "tech",
+  "title": "Campus Data Engineer Intern \u2014 Jump Trading",
+  "org": "Jump Trading",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8002998",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-jump-trading-fpga-engineer-intern",
+  "section": "tech",
+  "title": "FPGA Engineer Intern \u2014 Jump Trading",
+  "org": "Jump Trading",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8003013",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-jump-trading-ai-research-engineer-intern-research-automation",
+  "section": "tech",
+  "title": "AI Research Engineer Intern - Research Automation \u2014 Jump Trading",
+  "org": "Jump Trading",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://boards.greenhouse.io/embed/job_app?token=8052351",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-jump-trading-campus-quantitative-researcher-intern",
+  "section": "tech",
+  "title": "Campus Quantitative Researcher Intern \u2014 Jump Trading",
+  "org": "Jump Trading",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://boards.greenhouse.io/embed/job_app?token=7982648",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ }
  {
   "id": "g-step-27",
   "section": "tech",
