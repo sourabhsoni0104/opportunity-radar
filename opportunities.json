@@ -520,6 +520,96 @@
   "note": "Volunteer = free registration. Watch each conference site ~3 months before event."
  },
  {
+  "id": "scr-world-surf-league-partnerships-analytics-reporting-intern",
+  "section": "tech",
+  "title": "Partnerships Analytics & Reporting Intern \u2014 World Surf League",
+  "org": "World Surf League",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://boards.greenhouse.io/worldsurfleague/jobs/8629100002",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-jane-street-hardware-engineer-fpga-asic",
+  "section": "tech",
+  "title": "Hardware Engineer - FPGA/Asic \u2014 Jane Street",
+  "org": "Jane Street",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://job-boards.greenhouse.io/janestreet/jobs/8624440002",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-pika-research-intern-bs-ms-phd",
+  "section": "tech",
+  "title": "Research Intern - BS/MS/PhD \u2014 Pika",
+  "org": "Pika",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.ashbyhq.com/pika/e135acb1-2a0b-47b4-81b2-3cb0f787657a/application",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-meta-research-scientist-intern-monetization-computer-vision",
+  "section": "tech",
+  "title": "Research Scientist Intern - Monetization Computer Vision \u2014 Meta",
+  "org": "Meta",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://www.metacareers.com/jobs/2281218542616482",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-great-gray-legal-compliance-extern",
+  "section": "tech",
+  "title": "Legal & Compliance Extern \u2014 Great Gray",
+  "org": "Great Gray",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/great-gray-group/1b6aeb9b-b5c0-4e74-a23c-d89560e38eb3/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-exowatt-software-engineer-intern-agent-platform-ai",
+  "section": "tech",
+  "title": "Software Engineer Intern - Agent Platform - AI \u2014 Exowatt",
+  "org": "Exowatt",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/exowatt/2623555d-8b81-4f95-8bca-de9fafd2381c/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-xsolla-ai-first-engineer-intern",
+  "section": "tech",
+  "title": "AI-First Engineer Intern \u2014 Xsolla",
+  "org": "Xsolla",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/xsolla/5d5fd6b3-d82f-437a-b251-abf4674ac874/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-xsolla-ai-first-engineer-intern",
+  "section": "tech",
+  "title": "AI-First Engineer Intern \u2014 Xsolla",
+  "org": "Xsolla",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/xsolla/1c0e5375-2352-4a2c-a816-48ddebbdd3d6/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-xsolla-ai-engineer-intern",
+  "section": "tech",
+  "title": "AI Engineer Intern \u2014 Xsolla",
+  "org": "Xsolla",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://jobs.lever.co/xsolla/5ec8e8f7-ed75-4697-a1c0-28a026f2e571/apply",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
   "id": "scr-amazon-junior-software-development-engineer-jr-developer-pro",
   "section": "tech",
   "title": "Junior Software Development Engineer - Jr. Developer Program \u2014 Amazon",
@@ -577,6 +667,106 @@
   "deadline": null,
   "confirmed": true,
   "url": "https://alfalaval.wd3.myworkdayjobs.com/Alfa_Laval_jobs/job/Warminster-PA/Database-Analyst-Intern_JR0046726",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-lexisnexis-risk-solutions-editorial-data-reporting-intern",
+  "section": "tech",
+  "title": "Editorial Data Reporting Intern \u2014 LexisNexis Risk Solutions",
+  "org": "LexisNexis Risk Solutions",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://relx.wd3.myworkdayjobs.com/LexisNexisLegal/job/Home-based-Washington-DC/Editorial-Data-Reporting-Intern_R112971-1",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-ge-healthcare-field-engineer-apprentice",
+  "section": "tech",
+  "title": "Field Engineer Apprentice \u2014 GE Healthcare",
+  "org": "GE Healthcare",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://gehc.wd5.myworkdayjobs.com/GEHC_ExternalSite/job/Remote/Field-Engineer-Apprentice_R4043420-2",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-chevron-corporation-previous-intern-earth-scientist",
+  "section": "tech",
+  "title": "Previous Intern - Earth Scientist \u2014 Chevron Corporation",
+  "org": "Chevron Corporation",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://chevron.wd5.myworkdayjobs.com/University/job/Houston-Texas-United-States-of-America/XMLNAME-2026-2027-Earth-Scientist--Previous-Intern--Full-Time_R000072337",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-worcester-polytechnic-institute-research-assistant",
+  "section": "tech",
+  "title": "Research Assistant \u2014 Worcester Polytechnic Institute",
+  "org": "Worcester Polytechnic Institute",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://wpi.wd5.myworkdayjobs.com/WPI_External_Career_Site/job/Worcester/Temporary-Research-Assistant_R0003527",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-lexisnexis-risk-solutions-software-engineer-apprentice",
+  "section": "tech",
+  "title": "Software Engineer Apprentice \u2014 LexisNexis Risk Solutions",
+  "org": "LexisNexis Risk Solutions",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://relx.wd3.myworkdayjobs.com/en-US/RiskSolutions/job/Grosvernor-House/Software-Engineer-Apprentice_R115941-2",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-relx-software-engineer-apprentice",
+  "section": "tech",
+  "title": "Software Engineer Apprentice \u2014 RELX",
+  "org": "RELX",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://relx.wd3.myworkdayjobs.com/en-US/relx/job/Grosvernor-House/Software-Engineer-Apprentice_R115941-3",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-parsons-ai-digital-innovation-engineer-intern",
+  "section": "tech",
+  "title": "AI & Digital Innovation Engineer Intern \u2014 Parsons",
+  "org": "Parsons",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://parsons.wd5.myworkdayjobs.com/en-US/search/job/CA---ON-Toronto/AI---Digital-Innovation-Engineering-Intern_R180895",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-state-employees-credit-union-secu-server-engineering-and-ope",
+  "section": "tech",
+  "title": "Server Engineering and Operations Intern \u2014 State Employees' Credit Union (SECU)",
+  "org": "State Employees' Credit Union (SECU)",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://ncsecu.wd1.myworkdayjobs.com/secu/job/North-Carolina/Intern---Server-Engineering-and-Operations-Fall-2026_JR-15842",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-arrowstreet-capital-quantitative-developer-intern",
+  "section": "tech",
+  "title": "Quantitative Developer Intern \u2014 Arrowstreet Capital",
+  "org": "Arrowstreet Capital",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Developer-Intern--Summer-2027_R1506",
+  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
+ },
+ {
+  "id": "scr-arrowstreet-capital-quantitative-researcher-intern",
+  "section": "tech",
+  "title": "Quantitative Researcher Intern \u2014 Arrowstreet Capital",
+  "org": "Arrowstreet Capital",
+  "deadline": null,
+  "confirmed": true,
+  "url": "https://arrowstreetcapital.wd5.myworkdayjobs.com/Campus_Careers/job/Boston/Quantitative-Researcher-Intern--Summer-2027_R1505",
   "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
  },
  {
@@ -727,196 +917,6 @@
   "deadline": null,
   "confirmed": true,
   "url": "https://job-boards.greenhouse.io/sharkninjaoperatingllc/jobs/4695627006",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-campus-ui-software-engineer-intern",
-  "section": "tech",
-  "title": "Campus UI Software Engineer Intern \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=8003019",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-ai-research-engineer-intern",
-  "section": "tech",
-  "title": "AI Research Engineer Intern \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=8052281",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-campus-software-engineer-intern",
-  "section": "tech",
-  "title": "Campus Software Engineer Intern \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=8002989",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-campus-data-engineer-intern",
-  "section": "tech",
-  "title": "Campus Data Engineer Intern \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=8002998",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-fpga-engineer-intern",
-  "section": "tech",
-  "title": "FPGA Engineer Intern \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=8003013",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-ai-research-engineer-intern-research-automation",
-  "section": "tech",
-  "title": "AI Research Engineer Intern - Research Automation \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=8052351",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-campus-quantitative-researcher-intern",
-  "section": "tech",
-  "title": "Campus Quantitative Researcher Intern \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=7982648",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-campus-quantitative-trader-intern",
-  "section": "tech",
-  "title": "Campus Quantitative Trader Intern \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=7848371",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-campus-quantitative-researcher-intern-phd",
-  "section": "tech",
-  "title": "Campus Quantitative Researcher Intern - PhD \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=8049938",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-jump-trading-campus-ai-research-engineer-intern-deep-learnin",
-  "section": "tech",
-  "title": "Campus AI Research Engineer Intern - Deep Learning \u2014 Jump Trading",
-  "org": "Jump Trading",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://boards.greenhouse.io/embed/job_app?token=8052338",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-flow-traders-quantitative-trading-intern",
-  "section": "tech",
-  "title": "Quantitative Trading Intern \u2014 Flow Traders",
-  "org": "Flow Traders",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://job-boards.greenhouse.io/flowtraders/jobs/8047166",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-hone-health-data-engineering-intern",
-  "section": "tech",
-  "title": "Data Engineering Intern \u2014 Hone Health",
-  "org": "Hone Health",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://job-boards.greenhouse.io/honehealth/jobs/5308958008",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-abb-application-engineering-intern",
-  "section": "tech",
-  "title": "Application Engineering Intern \u2014 ABB",
-  "org": "ABB",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/Alpharetta-Georgia-United-States-of-America/Application-Engineering-Intern---Fall-2026_JR00038999",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-nav-canada-radar-systems-engineering-student-co-op",
-  "section": "tech",
-  "title": "Radar Systems Engineering Student Co-op \u2014 NAV CANADA",
-  "org": "NAV CANADA",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://navcanada.wd10.myworkdayjobs.com/NAV_Careers/job/Ottawa/Radar-Systems-Engineering-Student--Co-op-4-or-8-months-COOP-available-position_JR-8229",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-national-laboratory-of-the-rockies-associate-undergraduate-i",
-  "section": "tech",
-  "title": "Associate/Undergraduate Intern \u2014 National Laboratory of the Rockies",
-  "org": "National Laboratory of the Rockies",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://nrel.wd5.myworkdayjobs.com/NLR/job/Remote/XMLNAME--Associate-Undergraduate--Intern---Carbon-Management-and-Large-Energy-Systems_R14405",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-national-laboratory-of-the-rockies-software-and-data-infrast",
-  "section": "tech",
-  "title": "Software and Data Infrastructure Intern \u2014 National Laboratory of the Rockies",
-  "org": "National Laboratory of the Rockies",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://nrel.wd5.myworkdayjobs.com/NLR/job/Golden-CO/Undergraduate-graduate-intern---software-and-data-infrastructure-for-autonomous-thin-film-experimentation--Year-Round-_R14394",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-ontic-data-migration-analyst-intern",
-  "section": "tech",
-  "title": "Data Migration Analyst Intern \u2014 Ontic",
-  "org": "Ontic",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://jobs.ashbyhq.com/Ontic/20af94c6-329e-45f5-b02b-4be582b5dee3/application",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-rakuten-international-software-engineer-intern",
-  "section": "tech",
-  "title": "Software Engineer Intern \u2014 Rakuten International",
-  "org": "Rakuten International",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://rakuten.wd1.myworkdayjobs.com/en-US/RakutenAmericas/job/San-Mateo-California/Intern---Software-Engineer--AI-User-Experience_1033171",
-  "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
- },
- {
-  "id": "scr-televisaunivision-product-manager-co-op",
-  "section": "tech",
-  "title": "Product Manager Co-op \u2014 TelevisaUnivision",
-  "org": "TelevisaUnivision",
-  "deadline": null,
-  "confirmed": true,
-  "url": "https://univision.wd1.myworkdayjobs.com/en-US/External/job/Miami-FL/Co-Op--Product-Manager---Personalization---New-Experiences-Temp_R020713",
   "note": "Auto-scraped from the Simplify Summer-2027 tracker. Rolling \u2014 apply within days of posting."
  }
 ]
